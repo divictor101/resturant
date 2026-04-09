@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumière · Home</title>
+  <!-- Bootstrap 5 + Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- AOS animation library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== STICKY NAVIGATION ===== -->
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Lumière</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" 
+            aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMain">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== HERO SECTION ===== -->
+<section class="hero d-flex align-items-center">
+  <div class="hero-overlay"></div>
+  <div class="container text-center text-white position-relative">
+    <h1 class="hero-title fade-in-up">Lumière</h1>
+    <p class="hero-tagline fade-in-up delay-1">Where elegance meets flavor · Modern fine dining</p>
+    <a href="menu.html" class="btn btn-gold btn-lg mt-4 px-5 py-3 fade-in-up delay-2">View Our Menu</a>
+  </div>
+</section>
+
+<!-- ===== FEATURED DISHES ===== -->
+<section class="py-6 bg-cream">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <span class="text-gold text-uppercase letter-spacing-2 small fw-semibold">Signature selections</span>
+      <h2 class="display-5 serif fw-bold mt-2">Featured Dishes</h2>
+      <div class="divider mx-auto"></div>
+    </div>
+
+    <div class="row g-4">
+      <!-- Dish 1 -->
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="card dish-card h-100 border-0 shadow-sm">
+          <div class="card-img-wrapper overflow-hidden rounded-top">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&auto=format&fit=crop" class="card-img-top" alt="Seared scallops">
+          </div>
+          <div class="card-body text-center">
+            <h5 class="card-title serif fw-bold">Seared Scallops</h5>
+            <p class="card-text small text-muted">Citrus beurre blanc, crispy capers, pea purée</p>
+            <span class="fw-semibold text-gold">$28</span>
+          </div>
+        </div>
+      </div>
+      <!-- Dish 2 -->
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+        <div class="card dish-card h-100 border-0 shadow-sm">
+          <div class="card-img-wrapper overflow-hidden rounded-top">
+            <img src="https://images.unsplash.com/photo-1558030006-450675393462?w=600&auto=format&fit=crop" class="card-img-top" alt="Wagyu steak">
+          </div>
+          <div class="card-body text-center">
+            <h5 class="card-title serif fw-bold">Wagyu Ribeye</h5>
+            <p class="card-text small text-muted">12oz marble score 9+, truffle butter, roasted garlic</p>
+            <span class="fw-semibold text-gold">$64</span>
+          </div>
+        </div>
+      </div>
+      <!-- Dish 3 -->
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+        <div class="card dish-card h-100 border-0 shadow-sm">
+          <div class="card-img-wrapper overflow-hidden rounded-top">
+            <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600&auto=format&fit=crop" class="card-img-top" alt="Mushroom risotto">
+          </div>
+          <div class="card-body text-center">
+            <h5 class="card-title serif fw-bold">Wild Mushroom Risotto</h5>
+            <p class="card-text small text-muted">Arborio rice, porcini, parmesan crisp, truffle oil</p>
+            <span class="fw-semibold text-gold">$26</span>
+          </div>
+        </div>
+      </div>
+      <!-- Dish 4 -->
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+        <div class="card dish-card h-100 border-0 shadow-sm">
+          <div class="card-img-wrapper overflow-hidden rounded-top">
+            <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=600&auto=format&fit=crop" class="card-img-top" alt="Chocolate lava cake">
+          </div>
+          <div class="card-body text-center">
+            <h5 class="card-title serif fw-bold">Dark Chocolate Lava</h5>
+            <p class="card-text small text-muted">Warm molten center, vanilla bean gelato, berries</p>
+            <span class="fw-semibold text-gold">$14</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BRIEF ABOUT SECTION ===== -->
+<section class="py-6 bg-white">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6" data-aos="fade-right">
+        <span class="text-gold text-uppercase letter-spacing-2 small fw-semibold">Our story</span>
+        <h2 class="display-6 serif fw-bold mt-2">Crafted with passion, served with grace</h2>
+        <div class="divider ms-0 mb-4"></div>
+        <p class="lead text-secondary">At Lumière, we believe dining is an art form. Every plate tells a story of seasonal ingredients, refined technique, and a deep respect for culinary tradition — with a contemporary touch.</p>
+        <p>Our chefs work closely with local farms and artisans to bring you an unforgettable experience. Whether an intimate dinner or a celebratory gathering, Lumière shines bright.</p>
+        <a href="about.html" class="btn btn-outline-gold mt-3">Learn more <i class="bi bi-arrow-right ms-2"></i></a>
+      </div>
+      <div class="col-lg-6" data-aos="fade-left">
+        <div class="about-img-wrapper rounded-4 overflow-hidden shadow">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&auto=format&fit=crop" alt="Restaurant interior" class="img-fluid hover-zoom">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="bg-dark text-light py-5">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-md-4">
+        <h4 class="serif text-gold">Lumière</h4>
+        <p class="small text-secondary">Elevated dining in the heart of the city.<br>Experience the art of flavor.</p>
+        <div>
+          <a href="#" class="text-light me-3"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-light"><i class="bi bi-twitter-x"></i></a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h5 class="serif text-gold">Hours</h5>
+        <ul class="list-unstyled small">
+          <li>Mon–Thu: 5pm – 10pm</li>
+          <li>Fri–Sat: 5pm – 11pm</li>
+          <li>Sunday: 4pm – 9pm</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5 class="serif text-gold">Contact</h5>
+        <ul class="list-unstyled small">
+          <li><i class="bi bi-geo-alt-fill me-2 text-gold"></i>789 Culinary Ave, NY</li>
+          <li><i class="bi bi-telephone-fill me-2 text-gold"></i>(212) 555-7890</li>
+          <li><i class="bi bi-envelope-fill me-2 text-gold"></i>hello@lumiere.com</li>
+        </ul>
+      </div>
+    </div>
+    <hr class="opacity-25 mt-4">
+    <div class="text-center small text-secondary">© 2026 Lumière. All rights reserved.</div>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
